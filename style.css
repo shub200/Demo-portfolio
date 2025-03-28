@@ -1,0 +1,270 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: "Outfit", serif;
+    box-sizing: border-box;
+    font-weight: 400;
+}
+header{
+    position: fixed;
+    top: 0px;
+    background-color: transparent;
+    width: 100%;
+    color: white;
+}
+header nav{
+    padding: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav #header-links{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header nav #header-links a{
+    text-decoration: none;
+    color: white;
+}
+header nav h1{
+    font-size: 7vh;
+    font-weight: 400;
+}
+body{
+    background-image: url("https://cdn.prod.website-files.com/6703afb8e5a471c37c4a1bad/6710dee43ff4a5f723f9466e_professional-lawyer.webp");
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+
+main{
+    height: auto;
+    width: 100%;
+    display: flex;
+    background-image: linear-gradient(rgba(11, 11, 11, 0.5),rgba(7, 182, 39, 0.866));
+    justify-content: center;
+    color: white;
+    font-weight: 100;
+    flex-direction: column;
+}
+#one{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}
+#one h1{
+    font-size: 18vh;
+    line-height: 1vh;
+    font-weight: 200;
+    margin-left: 5%;
+    margin-top: 7%;
+}
+#two{
+    height: 150vh;
+    width: 100%;
+    background: #faf5ef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#two-frist-div{
+    height: 85vh;
+    width: 90%;
+    border-top: 1px solid #cfc39f;
+    display: flex;
+    text-align: start;
+    flex-direction: column; 
+    justify-content: end;
+}
+#two-frist-div h1{
+    font-size: 10vh;
+    font-weight: 200;
+    color:  #544006;
+    line-height: 10vh;
+}
+#two-frist-div p{
+    margin-bottom: 9%;
+    font-size: larger;
+    font-weight: 500;
+    color:  #7a2a25;
+}
+
+#two-second-div{
+    height: 45vh;
+    width: 90%;
+    border-bottom: 1px solid #cfc39f;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    color:  #544006;
+    font-weight: 400;
+}
+#two-second-div #for-centering-p{
+    height: 100%;
+    justify-content: center;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#for-centering-p button{
+    height: 6vh;
+    width: 40%;
+    font-size: small;
+    border: 1px solid #7a2a25;
+    background-color: transparent;
+    color: #7a2a25;
+    margin-top: 2%;
+    transition: all 0.3s ease-in-out;
+}
+#for-centering-p button:hover{
+    border-radius: 13px;
+}
+#three{
+    height: 170vh;
+    width: 100%;
+    background: #faf5ef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#three-header{
+    width: 90%;
+    font-size: larger;
+    color: #7a2a25;
+    font-weight: 300;
+    display: flex;
+    align-items: flex-end;
+}
+#three-more-text{
+    width: 90%;
+    color: #544006;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+}
+#more-text{
+    flex-direction: column;
+    display: flex;
+    font-size: 5.5vh;
+}
+#more-text h1{
+    font-weight: 200;
+}
+#three-img{
+    height: 130vh;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #cfc39f;
+}
+#three-img img{
+    height: 90vh;
+    width: 100%;
+    margin-top: 5%;
+    object-fit: cover;
+}
+#four{
+    height: 230vh;
+    background: #faf5ef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#four #four-header{
+    height: 3%;
+    display: flex;
+    align-items: end;
+    width: 90%;
+    color: #7a2a25;
+}
+#four-text{
+    width: 90%;
+    height: 30%;
+    font-size: 7vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    line-height: 10vh;
+    color: #544006;
+}
+#four-text h1{
+    font-weight: 200;
+}
+.card-container{
+    height: 55vh;
+    width: 90%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.card{
+    height: 100%;
+    width: 25%;
+    border-top: 1px solid #c48a86;
+    margin-right: 3%;
+    color: #604f1c;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: start;
+}
+.card p{
+    color: #a1362e;
+}
+.card h4{
+    font-weight: 300;
+}
+#card-container{
+    height: 55vh;
+    width: 90%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer{
+    height: 170vh;
+    width: 100%;
+    background: #0f231b;
+    display: flex;
+    justify-content: center;
+}
+#footer-div{
+    height: 50vh;
+    width: 90%;
+    border-top: 1px solid #374e45;
+    margin-top: 8%;
+    display: flex;
+    flex-direction: row;
+}
+#footer-first-text{
+    height: 100%;
+    width: 13%;
+    padding: 1.5%;
+    color: white;
+}
+#footer-second-text{
+    height: 100%;
+    width: 87%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+    color: #ffffff;
+}
+#footer-second-text h1{
+    font-size: 9vh;
+    font-weight: 200;
+}
